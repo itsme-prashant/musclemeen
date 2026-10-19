@@ -1,0 +1,22 @@
+{
+  "name": "MuscularMen – Daily Workout Guide",
+  "short_name": "MuscularMen",
+  "description": "12-week body transformation program with daily workouts, rest timer, progress tracking and Indian nutrition.",
+  "start_url": "./index.html#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0C0F",
+  "theme_color": "#0A0C0F",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Today's workout", "url": "./index.html#/today" },
+    { "name": "Food log", "url": "./index.html#/food" },
+    { "name": "Progress", "url": "./index.html#/progress" }
+  ]
+}

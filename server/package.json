@@ -1,0 +1,17 @@
+{
+  "name": "muscularmen-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional MuscularMen server: serves the site, AI coach (Claude) and accounts & cloud sync.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  }
+}

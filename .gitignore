@@ -1,0 +1,19 @@
+# Dependencies (install with: cd server && npm install)
+node_modules/
+
+# Server user data – accounts and synced workouts must never be committed
+server/data/
+
+# Local secrets / environment
+.env
+.env.*
+
+# Local editor and tool settings
+.claude/
+.vscode/
+.idea/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
